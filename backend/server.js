@@ -13,12 +13,13 @@ dotenv.config()
 const app = express()
 const PORT = process.env.PORT || 4000
 // Connect to Local MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/mydatabase', {
+mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
-.then(() => console.log('✅ Connected to MongoDB Local'))
-.catch(err => console.error('❌ MongoDB connection error:', err));
+  .then(() => console.log('✅ Connected to MongoDB Atlas'))
+  .catch(err => console.error('❌ MongoDB Atlas connection error:', err));
+
 
 connectCloudinary();
 
