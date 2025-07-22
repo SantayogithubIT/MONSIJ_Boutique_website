@@ -33,10 +33,7 @@ app.use('/api/product', productRouter)
 app.use('/api/cart', cartRouter)
 app.use('/api/order', orderRouter)
 
-app.get('/', (req, res) => {
-    res.send('API Working and Server Working in 4000')
-})
+app.get('/', (req, res) => res.send('Express API working!'))
 
-app.listen(PORT, () => {
-    console.log(`Server is running on port `+ PORT)
-})
+// Export for Vercel
+export default app;
