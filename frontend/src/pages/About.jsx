@@ -16,7 +16,7 @@ const About = () => {
           {/* Image */}
           <div className="w-full lg:w-1/3">
             <img
-              src={assets.admin}
+              src={assets.imon_bhaduri}
               alt="Mother of MONSIJ."
               className="rounded-2xl shadow-2xl w-full object-cover border-4 border-pink-200"
             />

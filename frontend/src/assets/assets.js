@@ -38,6 +38,7 @@ import pic37 from './pic37.jpg'
 import pic38 from './pic38.jpg'
 import pic39 from './pic39.jpg'
 import pic40 from './pic40.jpg'
+import imon_bhaduri from './imon_bhaduri.jpg'
 
 
 import logo from './logo.png'
@@ -60,6 +61,7 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 import admin from './admin.jpg'
 import Mon_logo from './Mon_Logo.png'
+import hero2 from './hero2.png'
 
 
 export const assets = {
@@ -82,7 +84,9 @@ export const assets = {
     stripe_logo,
     cross_icon,
     admin,
-    Mon_logo
+    Mon_logo,
+    imon_bhaduri,
+    hero2
 }
 
 
