@@ -60,7 +60,7 @@ import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 import admin from './admin.jpg'
-import Mon_logo from './Mon_Logo.png'
+import Mon_logo from './Mon_logo.png'
 import hero2 from './hero2.png'
 
 
