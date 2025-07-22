@@ -11,7 +11,7 @@ const Hero = () => {
           <p className="text-sm sm:text-base font-medium uppercase tracking-widest">Welcome to</p>
         </div>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif leading-snug mb-6 text-pink-600">
-          Monsij <span className='text-black' >Boutique</span>
+          Monsij <span className='text-black'>Boutique</span>
         </h1>
         <button className="group flex items-center gap-2 text-sm sm:text-base font-semibold text-pink-700 hover:text-pink-400 transition-colors">
           Shop Now
@@ -19,15 +19,16 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* Right Side */}
-      <div className="w-full sm:w-1/2 h-64 sm:h-auto lg:h-[500px]">
+      {/* Right Side - Full Image Display */}
+      <div className="w-full sm:w-1/2 bg-white p-4 flex items-center justify-center">
         <img
           src={assets.hero2}
           alt="Hero"
-          className="w-full h-full object-cover"
+          className="w-full h-auto object-contain max-h-[500px] rounded-lg"
         />
       </div>
     </div>
   );
 };
+
 export default Hero
