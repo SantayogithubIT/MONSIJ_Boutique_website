@@ -2,7 +2,6 @@ import orderModel from "../models/orderModel.js";
 import UserModel from "../models/UserModel.js";
 import razorpay from 'razorpay';
 import dotenv from 'dotenv';
-import e from "express";
 dotenv.config();
 //Global Variable
 const currency = 'inr'
